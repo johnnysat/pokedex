@@ -37,7 +37,7 @@ main {
   color: #aaa;
   position: absolute;
   bottom: 41%;
-  left: 42%; 
+  left: 35%; 
   font-size: clamp(8px, 5vw, 25px);
 }
 
