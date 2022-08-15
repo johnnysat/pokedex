@@ -36,8 +36,8 @@ main {
 .pokemon__data { 
   color: #aaa;
   position: absolute;
-  bottom: 41%;
-  left: 35%; 
+  bottom: 39.5%;
+  left: 25%; 
   font-size: clamp(8px, 5vw, 25px);
 }
 
@@ -46,10 +46,32 @@ main {
   text-transform: capitalize;
 }
 
+.pokemon__type {
+  display: flex;
+  position: absolute;
+  bottom: 44%;
+  left: 22%;
+  list-style-type: none;
+  width: 57%;
+}
+
+.pokemon__type span {
+  color: #aaa;
+  font-weight: 600;
+  padding-left: 0.5rem;
+}
+
+.pokemon__type li {
+  padding-left: 1rem;
+  text-transform: capitalize;
+  color: #3a444d;
+  font-weight: 600;
+}
+
 .form {
   position: absolute;
   width: 65%;
-  top: 65%;
+  top: 67%;
   left: 13.5%;
 }
 
