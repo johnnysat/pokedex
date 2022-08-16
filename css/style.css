@@ -50,9 +50,10 @@ main {
   display: flex;
   position: absolute;
   bottom: 44%;
-  left: 22%;
+  left: 23%;
   list-style-type: none;
   width: 57%;
+  font-size: clamp(6px, 4vw, 16px);
 }
 
 .pokemon__type span {
