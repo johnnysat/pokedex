@@ -5,3 +5,5 @@ também é possível passar para o próximo ou retornar para o anterior.</p>
 <h1>Alteração</h1>
 <p>Para praticar o conhecimento adquirido e "sair" do que é mostrado durante o vídeo, adicionei também a opção de aparecer os tipos do pokémon. Encontrei a dificuldade 
 em que o segundo tipo (quando ausente), se mantinha o do pokemon anterior e foi um desafio em que quebrei a cabeça para poder consertar isso. </p>
+<h1>Visualização</h1>
+<p>Você pode visualizar o projeto rodando pela vercel <a href="https://pokedex-johnnysat.vercel.app">aqui.</a></p>
