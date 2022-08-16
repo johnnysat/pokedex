@@ -29,12 +29,12 @@ const renderPokemon = async (pokemon) => {
   if(data){ 
     pokemonName.innerHTML = data.name;
     pokemonNumber.innerHTML = data.id;
+    searchPokemon = data.id;
     pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
     pokemonType1.innerHTML = data['types']['0']['type']['name'];
     pokemonType2.innerHTML = '';
     pokemonType2.innerHTML = data['types']['1']['type']['name'];
     pokemonImage.style.display = 'block';
-    searchPokemon = data.id;
   } else {
     pokemonName.innerHTML = 'Not Found :C';
     pokemonNumber.innerHTML = '';
